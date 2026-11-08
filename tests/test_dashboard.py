@@ -43,7 +43,7 @@ class DashboardTests(unittest.TestCase):
             assessment_file=tmp/'assessment.json'
             monitor_file=tmp/'monitor.json'
             shutil.copy(ROOT/'site/data/assessment.json', assessment_file)
-            shutil.copy(ROOT/'site/data/monitor.json', monitor_file)
+            monitor_file.write_text(json.dumps({'schemaVersion': 1, 'sources': [], 'events': [], 'feedSeen': []}), encoding='utf-8')
             original=assessment_file.read_bytes()
             changed_page="<main><h1>Testmeldung</h1><p>Diese Seite enthält ausreichend Text für die automatisierte Quellenerkennung, ohne eine juristische oder politische Interpretation zu übernehmen. Im Fall einer Textänderung werden lediglich Recherchehinweise erzeugt.</p></main>"
             def fetch(url):
