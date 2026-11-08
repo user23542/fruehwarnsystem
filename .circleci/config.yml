@@ -1,0 +1,82 @@
+version: 2.1
+
+jobs:
+  pruefen-und-veroeffentlichen:
+    docker:
+      - image: cimg/python:3.12
+    resource_class: small
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: Python-Tests und Datenintegritaet
+          command: |
+            set -euo pipefail
+            python -m unittest discover -s tests -v
+            python -m json.tool site/data/assessment.json >/dev/null
+            python -m json.tool site/data/monitor.json >/dev/null
+      - run:
+          name: Quellen technisch pruefen und gh-pages aktualisieren
+          command: |
+            set -euo pipefail
+            if [ -z "${GH_PAGES_DEPLOY_KEY_B64:-}" ]; then
+              echo 'FEHLER: CircleCI-Umgebungsvariable GH_PAGES_DEPLOY_KEY_B64 fehlt.' >&2
+              echo 'Siehe CIRCLECI_SETUP.md: GitHub-Deploy-Key und CircleCI Project Settings einrichten.' >&2
+              exit 2
+            fi
+
+            mkdir -p "$HOME/.ssh"
+            chmod 700 "$HOME/.ssh"
+            printf '%s' "$GH_PAGES_DEPLOY_KEY_B64" | base64 --decode > "$HOME/.ssh/fruehwarnsystem_deploy"
+            chmod 600 "$HOME/.ssh/fruehwarnsystem_deploy"
+            # GitHubs veroeffentlichter Ed25519-Hostkey, nicht blind per ssh-keyscan akzeptiert.
+            printf '%s\n' 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' >> "$HOME/.ssh/known_hosts"
+            chmod 600 "$HOME/.ssh/known_hosts"
+            export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/fruehwarnsystem_deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes"
+
+            REMOTE='git@github.com:user23542/fruehwarnsystem.git'
+            DEPLOY_DIR='/tmp/fruehwarnsystem-gh-pages'
+            BRANCH_INFO="$(git ls-remote --heads "$REMOTE" gh-pages)" || {
+              echo 'SSH-Verbindung oder GitHub-Deploy-Key ungueltig; gh-pages kann nicht geprueft werden.' >&2
+              exit 3
+            }
+            if [ -n "$BRANCH_INFO" ]; then
+              git clone --depth 1 --single-branch --branch gh-pages "$REMOTE" "$DEPLOY_DIR"
+              # Alte Pruefergebnisse uebernehmen, sonst wuerden Folgelaeufe Aenderungen vergessen.
+              if [ -f "$DEPLOY_DIR/data/monitor.json" ]; then
+                cp "$DEPLOY_DIR/data/monitor.json" site/data/monitor.json
+              fi
+            else
+              mkdir -p "$DEPLOY_DIR"
+              git -C "$DEPLOY_DIR" init -b gh-pages
+              git -C "$DEPLOY_DIR" remote add origin "$REMOTE"
+            fi
+
+            python scripts/check_sources.py
+            python -m json.tool site/data/monitor.json >/dev/null
+
+            # Nur den freigegebenen statischen Website-Ordner veroeffentlichen.
+            find "$DEPLOY_DIR" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+            cp -a site/. "$DEPLOY_DIR/"
+            git -C "$DEPLOY_DIR" config user.name 'Fruehwarnsystem CircleCI'
+            git -C "$DEPLOY_DIR" config user.email 'circleci-deploy@users.noreply.github.com'
+            git -C "$DEPLOY_DIR" add -A
+            if git -C "$DEPLOY_DIR" diff --cached --quiet; then
+              echo 'Keine inhaltlichen Aenderungen am veroeffentlichten Stand.'
+            else
+              git -C "$DEPLOY_DIR" commit -m 'Fruehwarnsystem: Quellencheck und Website'
+              git -C "$DEPLOY_DIR" push origin gh-pages
+            fi
+            echo 'CircleCI hat die Website-Dateien im Branch gh-pages aktualisiert.'
+            echo 'Die eigentliche GitHub-Pages-Bereitstellung erfolgt danach durch GitHub.'
+      - store_artifacts:
+          path: site/data/monitor.json
+          destination: quellencheck/monitor.json
+
+workflows:
+  fruehwarnsystem:
+    jobs:
+      - pruefen-und-veroeffentlichen:
+          filters:
+            branches:
+              only: main
