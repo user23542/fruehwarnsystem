@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Quellenbasiertes Frühwarn-Dashboard für Demokratie, Grundrechte und gesellschaftliche Sicherheit in Berlin und Deutschland.">
+  <title>Frühwarnsystem — Berlin & Deutschland</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Zum Inhalt springen</a>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#start" aria-label="Frühwarnsystem, zur Startseite"><span class="brand-mark" aria-hidden="true"><span></span></span><span class="brand-title">FRÜH<span>WARN</span>SYSTEM</span></a>
+      <nav class="topnav" aria-label="Hauptnavigation">
+        <a href="#indikatoren">Indikatoren</a>
+        <a href="#verlauf">Entwicklung</a>
+        <a href="#methode">Methodik</a>
+      </nav>
+      <span class="header-location"><span class="pulse-dot"></span> BERLIN · DEUTSCHLAND</span>
+    </div>
+  </header>
+
+  <main id="content" class="wrap">
+    <section class="hero" id="start" aria-labelledby="hero-heading">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="eyebrow-line"></span> GESELLSCHAFTLICHER LAGECHECK · 2026—2036</p>
+        <h1 id="hero-heading">Wie sicher ist<br><em>unsere Zukunft?</em></h1>
+        <p class="hero-intro">Zehn überprüfbare Indikatoren. Eine nachvollziehbare Einschätzung. Und eine Frage, die mehr braucht als Schlagzeilen: <strong>Ab wann sollte man Vorsorge treffen?</strong></p>
+        <div class="hero-metadata">
+          <span class="metadata-item"><span class="small-symbol">◷</span><span id="evaluated-date">Daten werden geladen</span></span>
+          <span class="metadata-item"><span class="small-symbol">◇</span><span id="source-count">Quellenabgleich</span></span>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="orbit-crosshair crosshair-a"></div><div class="orbit-crosshair crosshair-b"></div>
+        <div class="art-core"><span class="art-north">N</span><div class="core-circle"><div class="core-diamond"></div></div><span class="art-south">S</span></div>
+        <span class="art-index index-a">52°31' N</span><span class="art-index index-b">13°24' E</span>
+      </div>
+    </section>
+
+    <section class="dashboard-grid" aria-label="Aktuelle Gesamteinschätzung">
+      <article class="panel outlook-panel">
+        <div class="panel-topline"><span class="mini-label">GESAMTEINSCHÄTZUNG</span><span id="assessment-confidence" class="subtle-pill">Einordnung läuft</span></div>
+        <div class="level-main"><div class="level-number" id="overall-number">—</div><div class="level-description"><span class="level-kicker">VORSORGE- UND HANDLUNGSSTUFE</span><h2 id="overall-title">Bewertung wird geladen</h2><p id="overall-subtitle">Bitte Daten abrufen.</p></div></div>
+        <div class="scale" id="main-scale" aria-label="Sechs Stufen von 0 bis 5"></div>
+        <div class="scale-caption"><span>0 · BEOBACHTEN</span><span>5 · SOFORT SCHÜTZEN</span></div>
+        <div class="assessment-note" id="assessment-limitation"></div>
+      </article>
+      <article class="panel summary-panel">
+        <div class="panel-topline"><span class="mini-label">LAGE AUF EINEN BLICK</span><span class="tiny-dec">01 / 03</span></div>
+        <div class="quote-rule"></div>
+        <p id="overall-summary" class="summary-copy">Die aktuelle Einordnung wird geladen.</p>
+        <div class="protective-box"><span class="protective-symbol">+</span><div><div class="protective-title">Was weiterhin schützt</div><p id="overall-protective">–</p></div></div>
+      </article>
+    </section>
+
+    <section class="source-status-strip" aria-label="Aktualisierungsstatus">
+      <div class="source-status-left"><span class="source-status-icon" id="monitor-light"></span><div><strong id="monitor-title">Automatische Quellenprüfung wird vorbereitet</strong><p id="monitor-description">Hier erscheinen später neue Funde, Fehler und das letzte Prüfdatum.</p></div></div>
+      <div class="source-status-actions"><button type="button" id="refresh-button" class="button-main"><span class="refresh-icon">↻</span> Anzeigen aktualisieren</button></div>
+    </section>
+
+    <section class="section-block" id="indikatoren" aria-labelledby="indicators-heading">
+      <div class="section-heading"><div><p class="eyebrow section-eyebrow"><span class="eyebrow-line"></span> ZEHN BEOBACHTUNGSFELDER</p><h2 id="indicators-heading">Die Signale <span>im Detail.</span></h2><p class="section-lead">Jeder Indikator erklärt, was beobachtet wird, wo wir stehen und welche Entwicklung eine Neubewertung auslösen würde.</p></div><span class="section-index">01—10</span></div>
+      <div class="filters" role="group" aria-label="Indikatoren filtern">
+        <div class="filter-chips" id="filter-buttons">
+          <button type="button" class="chip selected" data-filter="all" aria-pressed="true">Alle Bereiche</button>
+          <button type="button" class="chip" data-filter="politik" aria-pressed="false">Demokratie</button>
+          <button type="button" class="chip" data-filter="rechte" aria-pressed="false">Rechte</button>
+          <button type="button" class="chip" data-filter="sicherheit" aria-pressed="false">Sicherheit</button>
+          <button type="button" class="chip" data-filter="versorgung" aria-pressed="false">Versorgung</button>
+          <button type="button" class="chip" data-filter="soziales" aria-pressed="false">Soziales</button>
+          <button type="button" class="chip" data-filter="optionen" aria-pressed="false">Optionen</button>
+        </div>
+        <label class="search-input"><span class="search-symbol">⌕</span><span class="sr-only">Indikatoren durchsuchen</span><input id="indicator-search" type="search" placeholder="Indikator suchen …" autocomplete="off"></label>
+      </div>
+      <div class="filter-meta"><span id="indicator-count">Indikatoren werden geladen …</span><span class="hint-arrow">Klicken zum Öffnen <span>↓</span></span></div>
+      <div id="indicator-list" class="indicator-list"><div class="loading-box">Die geprüften Inhalte werden geladen …</div></div>
+    </section>
+
+    <section class="section-block history-section" id="verlauf" aria-labelledby="history-heading">
+      <div class="section-heading"><div><p class="eyebrow section-eyebrow"><span class="eyebrow-line"></span> WAS SICH VERÄNDERT</p><h2 id="history-heading">Der Verlauf. <span>Nicht die Vorhersage.</span></h2><p class="section-lead">Nur dokumentierte Einschätzungen bilden die Verlaufslinie. Zukunftsszenarien werden getrennt dargestellt.</p></div><span class="section-index">2026—2036</span></div>
+      <div class="history-grid">
+        <article class="panel history-chart-panel"><div class="panel-topline"><span class="mini-label">DOKUMENTIERTE HANDLUNGSSTUFEN</span><span class="tiny-dec">QUALITATIVE EINORDNUNG</span></div><div id="history-chart" class="history-chart" role="img" aria-label="Verlauf der geprüften Handlungsstufen"></div><div id="history-events" class="event-list"></div></article>
+        <aside class="panel scenarios-panel"><div class="panel-topline"><span class="mini-label">BIS 2036 · KEINE PROGNOSEWERTE</span></div><h3>Drei denkbare Wege</h3><div class="scenario-row"><span class="scenario-mark scenario-better"></span><div><strong>Positive Entwicklung</strong><p>Schutzinstitutionen bleiben wirksam; Gewalt und Versorgungsdruck gehen zurück.</p></div></div><div class="scenario-row"><span class="scenario-mark scenario-base"></span><div><strong>Angespannte Stabilität</strong><p>Polarisierung und einzelne Belastungen bleiben bestehen; rechtliche Kontrollen funktionieren.</p></div></div><div class="scenario-row"><span class="scenario-mark scenario-worse"></span><div><strong>Materielle Verschlechterung</strong><p>Mehrere Rechts-, Gewalt- und Versorgungsmarker eskalieren gleichzeitig.</p></div></div><p class="scenario-disclaimer">Die Szenarien sind konditional, keine behaupteten Zukunftsmesswerte und keine präzisen Wahrscheinlichkeiten.</p></aside>
+      </div>
+    </section>
+
+    <section class="section-block updates-section" id="neuigkeiten" aria-labelledby="updates-heading">
+      <div class="section-heading"><div><p class="eyebrow section-eyebrow"><span class="eyebrow-line"></span> AUTOMATISCHER QUELLENCHECK</p><h2 id="updates-heading">Was wurde <span>neu entdeckt?</span></h2><p class="section-lead">Die Automatik erkennt Änderungen an ausgewählten Quellenseiten. Solche Änderungen gelten zunächst als <strong>ungeprüfte Recherchehinweise</strong> und lösen keine automatische Risiko-Eskalation aus.</p></div></div>
+      <div class="panel updates-panel"><div id="monitor-events" class="updates-items"><p class="muted">Noch keine automatische Quellenprüfung durchgeführt.</p></div></div>
+    </section>
+
+    <section class="section-block method-section" id="methode" aria-labelledby="method-heading">
+      <div class="section-heading"><div><p class="eyebrow section-eyebrow"><span class="eyebrow-line"></span> WIE DIE BEWERTUNG ENTSTEHT</p><h2 id="method-heading">Transparenz <span>vor Dramatik.</span></h2></div></div>
+      <div class="method-grid"><div class="method-block"><span class="method-number">01</span><h3>Fakten sind nicht Prognosen.</h3><p>Gesetze, Urteile und offizielle Zahlen werden getrennt von politischen Forderungen und möglichen Zukunftsentwicklungen dargestellt.</p></div><div class="method-block"><span class="method-number">02</span><h3>Keine einfache Durchschnittsampel.</h3><p>Eine akute persönliche Bedrohung kann sofortiges Handeln erfordern, auch wenn andere Indikatoren stabil bleiben. Die Gesamteinschätzung folgt einer qualitativen Begründung.</p></div><div class="method-block"><span class="method-number">03</span><h3>Automatik ist keine Redaktion.</h3><p>Neue Veröffentlichungen werden technisch erkannt. Risiko- und Handlungsstufen ändern sich erst nach Quellenbewertung und redaktioneller Aktualisierung.</p></div><div class="method-block"><span class="method-number">04</span><h3>Auswanderung ist nicht die Vorgabe.</h3><p>Beobachten, planen, innerdeutsch umziehen und zeitweise im Ausland leben sind eigenständige, oft reversiblere Alternativen.</p></div></div>
+      <details class="method-disclosure"><summary>Alle sechs Handlungsstufen und ihre Bedeutung anzeigen <span>+</span></summary><div id="level-explanations" class="level-explanations"></div></details>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><div><div class="footer-brand">FRÜH<span>WARN</span>SYSTEM</div><p>Ein quellenorientiertes Entscheidungsinstrument, keine individuelle Gefährdungs-, Rechts- oder Gesundheitsberatung.</p></div><div class="footer-info"><p id="footer-updated">Redaktioneller Stand wird geladen</p><p>Bei unmittelbarer Gefahr: Polizei 110 · Rettung 112</p><a href="#start">Zurück nach oben ↑</a></div></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

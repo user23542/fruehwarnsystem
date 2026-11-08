@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "evaluatedAt": "2026-11-08",
+  "scope": "Berlin und Deutschland – politische und gesellschaftliche Rahmenbedingungen",
+  "reviewMode": "Begrenzter quellenbasierter Abgleich, keine vollständige individuelle Gefährdungsanalyse",
+  "overall": {
+    "level": 1,
+    "confidence": "mittel",
+    "title": "Beobachten und Alternativen erwägen",
+    "summary": "Für die allgemeine Lage ist derzeit keine pauschale Auswanderungsnotwendigkeit belegt. Erhöhte rechte Gewalt, gesellschaftliche Polarisierung und materielle bzw. medizinische Versorgungslasten rechtfertigen aber eine strukturierte Beobachtung und für exponierte Personen eine vorsorgliche Planung.",
+    "protective": "Funktionsfähige unabhängige Institutionen, Berliner Beratungsnetzwerke und EU-Freizügigkeit wirken als wichtige Schutz- und Ausweichfaktoren.",
+    "limitation": "Diese Einschätzung beruht auf einem begrenzten Quellenabgleich bis 8. November 2026; sie ist keine vollständige Aktualisierung sämtlicher Rechts- und Versorgungsbereiche und keine individuelle Sicherheitseinstufung."
+  },
+  "indicators": [
+    {
+      "id": "institutionen",
+      "title": "Demokratie & Rechtsstaat",
+      "strap": "Kontrollen, unabhängige Justiz, faire Wahlen",
+      "category": "politik",
+      "signal": 0,
+      "status": "Nicht erfüllt",
+      "confidence": "hoch",
+      "affected": [
+        "politisch"
+      ],
+      "what": "Prüft, ob Wahlen fair bleiben, Gerichte unabhängig urteilen und Regierungen rechtsstaatliche Kontrolle akzeptieren. Die Bewertung verlangt nachprüfbare institutionelle Eingriffe, nicht bloß konfliktträchtige Debatten.",
+      "current": "Freedom House bewertet Deutschland 2026 mit 95 von 100 Punkten als „Free“. Der EU-Rechtsstaatlichkeitsbericht dokumentiert weiterhin rechtsstaatliche Kontrollmechanismen und Verbesserungsbedarf. Die Berliner Wahl vom September wurde amtlich festgestellt; daraus ergibt sich kein Beleg für ausgehebelte Wahlverfahren.",
+      "future": "Wichtig werden tatsächlich umgesetzte Eingriffe in Gerichte, Medien oder Wahlverfahren. Streitige politische Entscheidungen alleine sind noch keine demokratische Systemkrise.",
+      "trigger": "Wiederholte Eingriffe in unabhängige Kontrollorgane oder systematische Nichtbefolgung verbindlicher Urteile.",
+      "insufficient": "Ein kontroverses Gerichtsurteil oder eine polarisierende Regierungserklärung.",
+      "protection": "Grundgesetz, unabhängige Gerichte, föderale Gegengewichte, EU-Recht und öffentlicher Kontrolljournalismus.",
+      "sources": [
+        "s_fh",
+        "s_eu",
+        "s_berlinwahl"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "macht",
+      "title": "Politische Machtverschiebung",
+      "strap": "Wahlen, Koalitionen und tatsächliche Gesetzgebung",
+      "category": "politik",
+      "signal": 1,
+      "status": "Teilweise erfüllt",
+      "confidence": "hoch",
+      "affected": [
+        "politisch",
+        "queer"
+      ],
+      "what": "Beobachtet, welche Parteien politische Macht erlangen und ob menschenrechtsgefährdende Vorhaben tatsächlich Gesetz oder Verwaltungspraxis werden.",
+      "current": "Bei der Berliner Wahl vom 20.09.2026 erhielt Die Linke 45 Sitze, die CDU 33 und die AfD 29; das Ergebnis wurde am 12.10. festgestellt. Linke, Grüne und SPD führen seit dem 02.11.2026 Koalitionsverhandlungen; deren Ausgang ist offen. Ein Wahlergebnis ist nicht mit tatsächlich umgesetzter Politik gleichzusetzen.",
+      "future": "Die laufenden Koalitions- und Gesetzgebungsentscheidungen müssen anhand konkreter Beschlüsse bewertet werden. Ein Sitzgewinn allein ist kein Anlass, die Schutzstufe automatisch zu erhöhen.",
+      "trigger": "Machtbeteiligung mit tatsächlicher Umsetzung erheblicher Einschränkungen von Grund- und Freiheitsrechten.",
+      "insufficient": "Umfragen, Parteiprogramme und ein isoliertes Wahlergebnis.",
+      "protection": "Opposition, Koalitionsmechanismen, parlamentarische Kontrolle und Gerichte.",
+      "sources": [
+        "s_berlinwahl",
+        "s_spd",
+        "s_bundeswahl"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "queer",
+      "title": "Queere & trans Rechte",
+      "strap": "Rechtliche Anerkennung und Diskriminierungsschutz",
+      "category": "rechte",
+      "signal": 1,
+      "status": "Teilweise erfüllt",
+      "confidence": "mittel",
+      "affected": [
+        "queer",
+        "gesundheit"
+      ],
+      "what": "Prüft den verbindlichen rechtlichen Schutz queerer, trans und inter Personen sowie die praktische Durchsetzbarkeit ihrer Rechte. Gesundheitsleistungen sind dabei ein eigenständiger Teilbereich.",
+      "current": "Das Selbstbestimmungsgesetz ist geltendes Recht und betrifft den Geschlechtseintrag; medizinische Behandlungen regelt es ausdrücklich nicht. ILGA-Europe ordnet Deutschland 2026 im europäischen Vergleich auf Rang 7 ein. Rechtsunsicherheiten bei Teilen transspezifischer GKV-Leistungen dürfen nicht mit einem allgemeinen medizinischen Verbot gleichgesetzt werden.",
+      "future": "Möglich sind gesetzliche Präzisierungen, fortgesetzte rechtspolitische Konflikte oder substanzielle Verschlechterungen. Entscheidend sind geltende Normen, Gerichtsurteile und reale Versorgungsfolgen.",
+      "trigger": "Verabschiedete wesentliche Rücknahme von Anerkennungs- oder Antidiskriminierungsrechten mit praktischen Folgen.",
+      "insufficient": "Kampagnen, Forderungen oder einzelne mediale Kontroversen ohne Rechtsänderung.",
+      "protection": "Grundrechte, Gleichbehandlungsgebote, EU-Recht, Gerichte und etablierte Beratungsstellen.",
+      "sources": [
+        "s_sbgg",
+        "s_ilga"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "medizin",
+      "title": "Psychotherapie & Versorgung",
+      "strap": "Psychiatrie, Medikamente, transspezifische Leistungen",
+      "category": "versorgung",
+      "signal": 2,
+      "status": "Teilweise erfüllt",
+      "confidence": "mittel",
+      "affected": [
+        "gesundheit",
+        "queer",
+        "armut"
+      ],
+      "what": "Erfasst reale Lücken bei Psychotherapie, Psychiatrie, Medikamenten und transspezifischer Gesundheitsversorgung. Entscheidend ist die konkrete Erreichbarkeit notwendiger Behandlung, nicht nur eine abstrakte nationale Angebotszahl.",
+      "current": "Die Bundespsychotherapeutenkammer warnte im August 2026 vor Belastungen durch das GKV-Beitragssatzstabilisierungsgesetz. Am 15.10.2026 wurden gesetzliche Korrekturen beschlossen, die sie in einem Q&A vom 20.10. einordnet. Die tatsächlichen Versorgungsfolgen sind weiter zu prüfen. Der Verband der Ersatzkassen meldet bei der Akutbehandlung längere Wartezeiten als vorgesehen, obwohl andere Zugangsintervalle in seinen Abrechnungsdaten günstiger ausfallen.",
+      "future": "Gesetzesfolgen, tatsächliche Behandlungskapazitäten und Veränderungen der regionalen Versorgung bleiben zu prüfen. Bei einer individuellen Behandlungsunterbrechung ist die persönliche Dringlichkeit unabhängig von der politischen Gesamtskala höher.",
+      "trigger": "Nachgewiesene dauerhafte Versorgungsabbrüche notwendiger Leistungen ohne erreichbare Alternative.",
+      "insufficient": "Ein einzelner Wartezeitwert oder eine Verbandsprognose ohne Prüfung tatsächlicher Auswirkungen.",
+      "protection": "Weiterbestehende GKV-Leistungswege, ärztliche Versorgung, gerichtlicher Rechtsschutz und individuelle Behandlungsübergangsplanung.",
+      "sources": [
+        "s_bptk",
+        "s_bptk_oct",
+        "s_vdek",
+        "s_sbgg"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "gewalt",
+      "title": "Rechte & queerfeindliche Gewalt",
+      "strap": "Politisch motivierte Angriffe und Zielauswahl",
+      "category": "sicherheit",
+      "signal": 2,
+      "status": "Erfüllt",
+      "confidence": "hoch",
+      "affected": [
+        "queer",
+        "politisch"
+      ],
+      "what": "Betrachtet rechte, queerfeindliche und politisch motivierte Gewalt, besonders zielgerichtete Übergriffe gegen exponierte Menschen. PMK-Straftaten insgesamt und PMK-Gewalttaten sind getrennt auszuwerten.",
+      "current": "Bundesweit wurden 2025 85.837 politisch motivierte Straftaten und 4.156 Gewaltdelikte registriert. In Berlin stieg rechte PMK-Gewalt von 90 auf 133 Fälle, während PMK-Gewalt insgesamt von 976 auf 902 sank. ReachOut dokumentierte 2025 besonders viele rechte und rassistische Angriffe. Das ist ein ernstes Warnsignal mit unterschiedlichen statistischen Grundgesamtheiten.",
+      "future": "Eine wiederholte Zunahme schwerer, organisierter und gezielter Gewalt oder nachlassender Schutz wäre ein stärkerer Eskalationsgrund als höhere Propagandadeliktzahlen allein.",
+      "trigger": "Persistente schwere Gewalt plus organisierte Zielauswahl und unzureichender Schutz; bei konkreter persönlicher Bedrohung sofort individuelle Prüfung.",
+      "insufficient": "Die Gleichsetzung jeder politisch motivierten Straftat mit körperlicher Gewalt; die Gleichsetzung größerer Meldungszahlen mit steigender individueller Wahrscheinlichkeit.",
+      "protection": "Opferberatungen, Strafverfolgung, Community-Netze, lokale Schutzkonzepte.",
+      "sources": [
+        "s_bka",
+        "s_berlinpmk",
+        "s_reachout"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "targeting",
+      "title": "Individuelle Bedrohung",
+      "strap": "Doxxing, Stalking, konkrete Drohungen",
+      "category": "sicherheit",
+      "signal": null,
+      "status": "Individuell zu prüfen",
+      "confidence": "nicht allgemein bestimmbar",
+      "affected": [
+        "politisch",
+        "queer"
+      ],
+      "what": "Erfasst das individuelle Risiko einer bestimmten Person: glaubwürdige Drohungen, Veröffentlichung privater Daten, gezieltes Stalking, frühere Angriffe und erreichbare Schutzmöglichkeiten. Ein allgemeiner Lagebericht kann diese Faktoren nicht bestimmen.",
+      "current": "Für eine konkrete Person liegt hier keine Gefährdungsprüfung vor. Die Berliner PMK-Statistik berichtet zwar auch von gezielten Angriffen auf einzelne Personen, lässt daraus aber keine persönliche Bedrohungsstufe ableiten.",
+      "future": "Der Indikator kann unabhängig vom allgemeinen politischen Trend sofort kritisch werden, sobald eine konkrete und glaubwürdige Gefahr besteht.",
+      "trigger": "Glaubwürdige konkrete Gewaltandrohung, fortgesetzte Verfolgung oder unmittelbar bevorstehender Angriff – gegebenenfalls sofortige Schutzmaßnahmen.",
+      "insufficient": "Allgemeine Online-Polemik ohne konkreten Bezug zur eigenen Person.",
+      "protection": "Dokumentation, Opferberatung, Polizeischutz, Vertrauenspersonen und sichere Unterkunft.",
+      "sources": [
+        "s_berlinpmk"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "ueberwachung",
+      "title": "Überwachung & Zivilgesellschaft",
+      "strap": "Bürgerrechte, Versammlungen, Datenschutz",
+      "category": "politik",
+      "signal": 1,
+      "status": "Teilweise erfüllt",
+      "confidence": "mittel",
+      "affected": [
+        "politisch",
+        "queer"
+      ],
+      "what": "Prüft, ob gesetzliche Sicherheitsbefugnisse ausgeweitet und ob diese gegen rechtmäßige politische Tätigkeit selektiv oder unverhältnismäßig eingesetzt werden.",
+      "current": "Die Berliner Datenschutzbeauftragte dokumentiert in ihrem Jahresbericht 2025 datenschutzrechtliche Probleme und Prüfbedarf. Der EU-Rechtsstaatlichkeitsbericht bietet einen institutionellen Gegencheck. Eine systematische politisch selektive Repression ist damit nicht automatisch nachgewiesen.",
+      "future": "Entscheidend wären konkrete Vollzugsdaten, Gerichtsentscheidungen und wiederkehrende Fälle, in denen lawful zivilgesellschaftliche Tätigkeit unverhältnismäßig eingeschränkt wird.",
+      "trigger": "Belegte wiederholte selektive Eingriffe bei zugleich versagenden Korrekturmechanismen.",
+      "insufficient": "Eine neue Ermittlungsbefugnis allein ohne Anwendung und Wirkungsanalyse.",
+      "protection": "Datenschutzaufsicht, gerichtlicher Rechtsschutz, parlamentarische Kontrolle und Verbandsklagen.",
+      "sources": [
+        "s_datenschutz",
+        "s_eu"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "existenz",
+      "title": "Wohnen & soziale Sicherheit",
+      "strap": "Miete, Einkommen, Beschäftigung, Leistungen",
+      "category": "soziales",
+      "signal": 2,
+      "status": "Erfüllt",
+      "confidence": "hoch",
+      "affected": [
+        "armut",
+        "gesundheit"
+      ],
+      "what": "Erfasst materielle Verwundbarkeit: Zugang zu bezahlbarem Wohnraum, tragfähige Einkünfte, soziale Sicherung und die Fähigkeit, einen Ortswechsel zu finanzieren.",
+      "current": "Die IBB meldete für Berlin 2025 einen Median der Angebotsmieten von 15,78 € je m², bei gegenüber 2024 nahezu unverändertem Niveau. Der Wert beschreibt neue Angebote, nicht bestehende Mietverträge. Bundesweit waren 2025 laut Destatis 16,1 % armutsgefährdet.",
+      "future": "Ökonomische Belastungen können eine frühzeitige innerdeutsche Standortsuche sinnvoll machen. Eine politische Emigrationsnotwendigkeit folgt aus hohen Mieten allein nicht.",
+      "trigger": "Konkrete existenzielle Wohn- oder Einkommensgefährdung ohne tragfähige örtliche Alternative.",
+      "insufficient": "Die Übertragung des Mietangebotsmedians auf eine bestehende günstige Wohnung.",
+      "protection": "Mieterschutz, soziale Hilfen, Bestandsmietverhältnisse, innerdeutsche Mobilität und kostenlose Sozialberatung.",
+      "sources": [
+        "s_ibb",
+        "s_destatis"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "community",
+      "title": "Community & Schutzräume",
+      "strap": "Beratung, Solidarität, Versorgungsnetz",
+      "category": "soziales",
+      "signal": 0,
+      "status": "Nicht erfüllt",
+      "confidence": "mittel",
+      "affected": [
+        "queer",
+        "politisch",
+        "gesundheit"
+      ],
+      "what": "Prüft, ob Beratungs-, Krisen-, Antidiskriminierungs- und Community-Einrichtungen funktional bleiben und erreichbar sind.",
+      "current": "ReachOut bietet weiterhin spezialisierte Opferberatung in Berlin; die Berliner Register dokumentieren weiterhin Vorfälle. Ein flächendeckender Zusammenbruch der Schutzinfrastruktur ist nicht belegt. Das Angebot einzelner Projekte kann dennoch unter Finanzierungsdruck stehen.",
+      "future": "Eine deutliche Reduktion gleichzeitig mehrerer zentraler Angebote wäre ein Warnsignal, insbesondere für Menschen ohne tragfähiges privates Netz.",
+      "trigger": "Dokumentierte gleichzeitige Schließungen oder längerfristige Funktionsausfälle zentraler Schutzangebote.",
+      "insufficient": "Kürzung oder Standortwechsel einer einzelnen Organisation als Beweis für flächendeckendes Versagen.",
+      "protection": "Vielfältige lokale Vereine, Beratung, Projekte und Peer-Netzwerke.",
+      "sources": [
+        "s_reachout",
+        "s_register"
+      ],
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "optionen",
+      "title": "EU-Optionen & Ausweichfähigkeit",
+      "strap": "Rechte und reale Machbarkeit eines Ortswechsels",
+      "category": "optionen",
+      "signal": 0,
+      "status": "Schutzfaktor vorhanden",
+      "confidence": "hoch",
+      "affected": [
+        "queer",
+        "gesundheit",
+        "armut",
+        "politisch"
+      ],
+      "what": "Prüft, ob sichere und praktisch erreichbare Alternativorte bestehen. Rechtliche Freizügigkeit ist von Beschäftigung, Wohnung, Sprache, Versicherung und konkreter Versorgung zu unterscheiden.",
+      "current": "Als deutsche Staatsangehörige besitzen Menschen grundsätzlich EU-Freizügigkeitsrechte. Für Aufenthalte von über drei Monaten sind je nach Status weitere Voraussetzungen und Formalitäten relevant; eine nahtlose Übertragung individueller Sozial- und Gesundheitsleistungen ist nicht garantiert.",
+      "future": "Eine konkrete Wohn-, Arbeits- und Versorgungsperspektive im Zielland macht die Option belastbarer. Ein Länder-Ranking allein ist keine Umzugsentscheidung.",
+      "trigger": "Falls ernsthafte Verschlechterungen in Deutschland auftreten: tatsächliche Machbarkeit eines nachweisbar besseren Zielorts abklären.",
+      "insufficient": "Die Annahme, dass rechtliche Einreise auch Wohnung, Einkommen und Behandlung garantiert.",
+      "protection": "EU-Freizügigkeit und vorhandene Rückkehrmöglichkeit sind starke Reversibilitätsvorteile.",
+      "sources": [
+        "s_youreurope",
+        "s_ilga"
+      ],
+      "reviewed": "2026-11-08"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s_eu",
+      "issuer": "Europäische Kommission",
+      "title": "Bericht über die Rechtsstaatlichkeit 2026",
+      "published": "2026-07-17",
+      "url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/upholding-rule-law/rule-law/annual-rule-law-cycle/2026-rule-law-report_de"
+    },
+    {
+      "id": "s_fh",
+      "issuer": "Freedom House",
+      "title": "Freedom in the World 2026: Germany",
+      "published": "2026",
+      "url": "https://freedomhouse.org/country/germany/freedom-world/2026"
+    },
+    {
+      "id": "s_berlinwahl",
+      "issuer": "Landeswahlleiter Berlin",
+      "title": "Endgültiges Ergebnis der Abgeordnetenhauswahl 2026",
+      "published": "2026-10-12",
+      "url": "https://www.berlin.de/wahlen/pressemitteilungen/2026/pressemitteilung.1723954.php"
+    },
+    {
+      "id": "s_spd",
+      "issuer": "SPD Berlin",
+      "title": "Stand der Berliner Koalitionsverhandlungen",
+      "published": "2026-11-06",
+      "url": "https://spd.berlin/magazin/aktuelles/stand-der-gespraeche/"
+    },
+    {
+      "id": "s_bundeswahl",
+      "issuer": "Bundeswahlleiterin",
+      "title": "Endgültiges Ergebnis der Bundestagswahl 2025",
+      "published": "2025-03-14",
+      "url": "https://www.bundeswahlleiterin.de/info/presse/mitteilungen/bundestagswahl-2025/29_25_endgueltiges-ergebnis.html"
+    },
+    {
+      "id": "s_sbgg",
+      "issuer": "Bundesministerium der Justiz",
+      "title": "Gesetz über die Selbstbestimmung in Bezug auf den Geschlechtseintrag",
+      "published": "2024-06-19",
+      "url": "https://www.gesetze-im-internet.de/sbgg/BJNR0CE0B0024.html"
+    },
+    {
+      "id": "s_ilga",
+      "issuer": "ILGA-Europe",
+      "title": "Rainbow Map 2026",
+      "published": "2026",
+      "url": "https://www.ilga-europe.org/report/rainbow-map-2026/"
+    },
+    {
+      "id": "s_bptk",
+      "issuer": "Bundespsychotherapeutenkammer",
+      "title": "Q&A: Psychotherapeutische Versorgung nach dem GKV-BStabG",
+      "published": "2026-08-03",
+      "url": "https://www.bptk.de/neuigkeiten/q-and-a-psychotherapeutische-versorgung-nach-dem-gkv-b-stab-g/"
+    },
+    {
+      "id": "s_bptk_oct",
+      "issuer": "Bundespsychotherapeutenkammer",
+      "title": "Q&A nach Korrekturen am GKV-BStabG",
+      "published": "2026-10-20",
+      "url": "https://www.bptk.de/neuigkeiten/qanda-zur-psychotherapeutischen-versorgung-nach-korrekturen-am-gkv-b-stab-g/"
+    },
+    {
+      "id": "s_vdek",
+      "issuer": "Verband der Ersatzkassen",
+      "title": "Wartezeiten in der Psychotherapie: Analyse",
+      "published": "2026-06-17",
+      "url": "https://www.vdek.com/presse/pressemitteilungen/2026/wartezeiten-psychotherapie-akutbehandlung.html"
+    },
+    {
+      "id": "s_bka",
+      "issuer": "Bundesregierung / BKA",
+      "title": "Fallzahlen politisch motivierter Kriminalität 2025",
+      "published": "2026-06-09",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/politisch-motivierte-kriminalitaet-2025-2438542"
+    },
+    {
+      "id": "s_berlinpmk",
+      "issuer": "Senatsverwaltung Berlin Inneres",
+      "title": "PKS und politisch motivierte Kriminalität Berlin 2025",
+      "published": "2026-03-11",
+      "url": "https://www.berlin.de/sen/inneres/presse/pressemitteilungen/2026/pressemitteilung.1651060.php"
+    },
+    {
+      "id": "s_reachout",
+      "issuer": "ReachOut Berlin",
+      "title": "Rassistische und rechte Gewalt in Berlin 2025",
+      "published": "2026-04-21",
+      "url": "https://www.reachoutberlin.de/de/Aktuelles/Ver%C3%B6ffentlichungen/"
+    },
+    {
+      "id": "s_datenschutz",
+      "issuer": "Berliner Datenschutzbeauftragte",
+      "title": "Jahresbericht 2025",
+      "published": "2026",
+      "url": "https://www.datenschutz-berlin.de/jahresbericht-2025/"
+    },
+    {
+      "id": "s_ibb",
+      "issuer": "Investitionsbank Berlin",
+      "title": "Wohnungsmarktbericht 2025",
+      "published": "2026-03-06",
+      "url": "https://www.ibb.de/de/ueber-uns/presse/ibb-wohnungsmarktbericht-2025-stagnierende-angebotsmieten-moderate-bestandsmieten-und-ansehnliche-neubaubilanz.html"
+    },
+    {
+      "id": "s_destatis",
+      "issuer": "Statistisches Bundesamt",
+      "title": "Armutsgefährdung 2025 (EU-SILC)",
+      "published": "2026-02-03",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_039_63.html"
+    },
+    {
+      "id": "s_youreurope",
+      "issuer": "Europäische Union / Your Europe",
+      "title": "Residence rights when living abroad in the EU",
+      "published": "2026-11-03",
+      "url": "https://europa.eu/youreurope/citizens/residence/residence-rights/"
+    },
+    {
+      "id": "s_register",
+      "issuer": "Berliner Register (über rbb24)",
+      "title": "Bilanz 2025: extrem rechte und diskriminierende Vorfälle",
+      "published": "2026-05-12",
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/05/berliner-register-zahl-rechtsextremer-aktionen-2025-hoechststand.html"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "level": 1,
+      "title": "Ausgangsanalyse",
+      "description": "Erste qualitativ begründete Vorsorgestufe; kein genereller Emigrationsgrund."
+    },
+    {
+      "date": "2026-11-08",
+      "level": 1,
+      "title": "Begrenzte Neubewertung",
+      "description": "Abgleich ausgewählter Primär- und Fachquellen einschließlich amtlichen Wahlergebnisses; allgemeine Stufe unverändert."
+    }
+  ],
+  "editorialRules": [
+    "Ampelstufe ist eine normative Handlungshilfe, keine gemessene Gefahrenwahrscheinlichkeit.",
+    "Mehrere unabhängige Indikatoren und tatsächliche Rechts-/Versorgungsfolgen zählen stärker als Umfragen oder einzelne Ereignisse.",
+    "Akute individuelle Gefahr kann unabhängig von der allgemeinen Stufe sofort Schutzmaßnahmen erfordern.",
+    "Automatisch entdeckte Quellenänderungen ändern die redaktionelle Warnstufe nicht ungeprüft."
+  ]
+}

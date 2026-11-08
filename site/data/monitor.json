@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": null,
+  "runStatus": "noch_nicht_ausgefuehrt",
+  "checkedCount": 0,
+  "changedCount": 0,
+  "errorCount": 0,
+  "sources": [],
+  "events": [],
+  "note": "Die automatische Quellenprüfung startet nach Veröffentlichung und Aktivierung des GitHub-Workflows. Automatische Funde sind keine redaktionell bestätigten Warnstufen."
+}
