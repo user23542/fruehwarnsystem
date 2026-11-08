@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-08T15:32:53Z",
+  "checkedAt": "2026-11-08T18:09:42Z",
   "runStatus": "completed",
   "checkedCount": 17,
   "changedCount": 0,
@@ -11,8 +11,8 @@
       "title": "Bericht über die Rechtsstaatlichkeit 2026",
       "url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/upholding-rule-law/rule-law/annual-rule-law-cycle/2026-rule-law-report_de",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "89b9cb80d44498a3049e4078c27abe5bfa8d81a2b020813c291ac24d801b66b4"
     },
     {
@@ -20,8 +20,8 @@
       "title": "Freedom in the World 2026: Germany",
       "url": "https://freedomhouse.org/country/germany/freedom-world/2026",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "3df893e901631801d339179e1047c9176fa44330d212d0f0312ff99247ffc15c"
     },
     {
@@ -29,8 +29,8 @@
       "title": "Endgültiges Ergebnis der Abgeordnetenhauswahl 2026",
       "url": "https://www.berlin.de/wahlen/pressemitteilungen/2026/pressemitteilung.1723954.php",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "c146b880ef64add7f1d8c5b20d8af8d0c967da655ccf65cd690670212b5cea59"
     },
     {
@@ -38,7 +38,7 @@
       "title": "Stand der Berliner Koalitionsverhandlungen",
       "url": "https://spd.berlin/magazin/aktuelles/stand-der-gespraeche/",
       "status": "error",
-      "checkedAt": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
       "lastSuccess": null,
       "fingerprint": null,
       "error": "HTTP Error 403: Forbidden"
@@ -48,7 +48,7 @@
       "title": "Gesetz über die Selbstbestimmung in Bezug auf den Geschlechtseintrag",
       "url": "https://www.gesetze-im-internet.de/sbgg/BJNR0CE0B0024.html",
       "status": "error",
-      "checkedAt": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
       "lastSuccess": null,
       "fingerprint": null,
       "error": "<urlopen error timed out>"
@@ -58,8 +58,8 @@
       "title": "Rainbow Map 2026",
       "url": "https://www.ilga-europe.org/report/rainbow-map-2026/",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "df03c90a9e3f09bbb87b3c1357d5007f6fcd80e4b7c8a8e82f1be237103aa13f"
     },
     {
@@ -67,8 +67,8 @@
       "title": "Q&A: Psychotherapeutische Versorgung nach dem GKV-BStabG",
       "url": "https://www.bptk.de/neuigkeiten/q-and-a-psychotherapeutische-versorgung-nach-dem-gkv-b-stab-g/",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "e57fa33d39aee666ef105677775f8461d537c40bfe40777a689acfebe1c8d51e"
     },
     {
@@ -76,8 +76,8 @@
       "title": "Q&A nach Korrekturen am GKV-BStabG",
       "url": "https://www.bptk.de/neuigkeiten/qanda-zur-psychotherapeutischen-versorgung-nach-korrekturen-am-gkv-b-stab-g/",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "b25fa049d6deeb68bb15334cc84d449eba79c7a16523302dc26b7ccf050eac32"
     },
     {
@@ -85,8 +85,8 @@
       "title": "Wartezeiten in der Psychotherapie: Analyse",
       "url": "https://www.vdek.com/presse/pressemitteilungen/2026/wartezeiten-psychotherapie-akutbehandlung.html",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "fdf6c353a8ae3994d4a78971f10cc693cb2cf86aa82f5dd2005359c8e3ae07b7"
     },
     {
@@ -94,8 +94,8 @@
       "title": "Fallzahlen politisch motivierter Kriminalität 2025",
       "url": "https://www.bundesregierung.de/breg-de/aktuelles/politisch-motivierte-kriminalitaet-2025-2438542",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "0f96cd30ec5a7f5afde71dd9fa0a2283f289febe187db4f6190b5957edae74a6"
     },
     {
@@ -103,8 +103,8 @@
       "title": "PKS und politisch motivierte Kriminalität Berlin 2025",
       "url": "https://www.berlin.de/sen/inneres/presse/pressemitteilungen/2026/pressemitteilung.1651060.php",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "966c779793df00fd947b4561f6f994f632cd0960a1df391eed4a0dc365358d89"
     },
     {
@@ -112,8 +112,8 @@
       "title": "Rassistische und rechte Gewalt in Berlin 2025",
       "url": "https://www.reachoutberlin.de/de/Aktuelles/Ver%C3%B6ffentlichungen/",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "e05641b9903d1ad10f0ee5c118bcd67d4a18ea2e22f9836bdb8c0f616533f1e6"
     },
     {
@@ -121,8 +121,8 @@
       "title": "Jahresbericht 2025",
       "url": "https://www.datenschutz-berlin.de/jahresbericht-2025/",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "ada00f16f2838675875710d13f9911c4e6d8ee7ed4b95abb76c0091ab3cf432b"
     },
     {
@@ -130,8 +130,8 @@
       "title": "Wohnungsmarktbericht 2025",
       "url": "https://www.ibb.de/de/ueber-uns/presse/ibb-wohnungsmarktbericht-2025-stagnierende-angebotsmieten-moderate-bestandsmieten-und-ansehnliche-neubaubilanz.html",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "1abdfbe49d54d44397e29c3521b81b634ceeac29c8b96aaf19598f66a61a24ec"
     },
     {
@@ -139,8 +139,8 @@
       "title": "Armutsgefährdung 2025 (EU-SILC)",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_039_63.html",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "a5835112e4b8c75aafb8ba45e1f6490cc9bc0e49faeed430e720b92d786e26ef"
     },
     {
@@ -148,8 +148,8 @@
       "title": "Residence rights when living abroad in the EU",
       "url": "https://europa.eu/youreurope/citizens/residence/residence-rights/",
       "status": "ok",
-      "checkedAt": "2026-11-08T15:32:53Z",
-      "lastSuccess": "2026-11-08T15:32:53Z",
+      "checkedAt": "2026-11-08T18:09:42Z",
+      "lastSuccess": "2026-11-08T18:09:42Z",
       "fingerprint": "80a1f504005082af90dfa5342caa57500bdbf9d7f1c4ceb15c8c22217fd08d53"
     }
   ],
